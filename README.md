@@ -1,4 +1,4 @@
-# Sz-Managing-Generics-and-Reseting-Generics
+# Sz-Managing-Generics-and-Resetting-Generics
 Where to see the generics, change the values and reset those that have gone generic
 
 ## Viewing Generic Thresholds
