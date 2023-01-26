@@ -1,4 +1,4 @@
-# Sz-Managing-Generics-and-Resetting-Generics
+# Sz-Managing-and-Resetting-Generics
 Where to see the generics, change the values and reset those that have gone generic
 
 ## Viewing Generic Thresholds
@@ -68,4 +68,14 @@ Then paste the command into the prompt for the G2ConfigTool.py
 
 
 Save and close the G2ConfigTool.py
+
+## Reseting Generics
+**NOTE: THIS WILL SET ALL FEATURES THAT WERE MAKERD AS GENERIC TO NOT-GENERIC. ONLY DO THIS AFTER TALKING WITH SUPPORT AND YOU UNDERSTAND WHAT THE IMPACT WILL BE**
+
+Connect to the database that supports the Senzing Project /
+Run the Update command to set the fields in the RES_FEAT_STAT table to be not-generic
+    
+    update RES_FEAT_STAT set CANDIDATE_CAP_REACHED = 'N' and SCORING_CAP_REACHED = 'N' where CANDIDATE_CAP_REACHED = 'Y'
+
+Save and close the database connection
 
