@@ -57,10 +57,10 @@ As an example lets change F1 "Load" candidateCap from 5 to 10
 
     {'plan': 'load', 'behavior': 'F1', 'candidateCap': 5, 'scoringCap': 5, 'sendToRedo': 'Yes'}
 
-You will need to edit the string by \
+You will need to edit the string by 
 - adding the command "setGenericThreshold" to the beginning
 - replacing the single quotes with double quotes
-- and the value of the candidateCap to 10 \
+- and the value of the candidateCap to 10 
 
 Then paste the command into the prompt for the G2ConfigTool.py
 
